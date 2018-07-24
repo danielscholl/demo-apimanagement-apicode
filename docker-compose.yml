@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  simpleapp.api:
+  demo.api:
     image: ${DOCKER_REGISTRY}/demoapi
     build:
       context: .
